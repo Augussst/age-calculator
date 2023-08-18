@@ -259,7 +259,8 @@
 		height: auto;
 	}
 
-	.submit button:hover {
+	.submit button:hover,
+	button:focus {
 		background-color: hsl(259, 100%, 70%);
 	}
 
