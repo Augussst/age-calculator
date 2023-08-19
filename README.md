@@ -28,7 +28,7 @@ Users should be able to:
   - The date is invalid e.g. 31/04/1991 (there are 30 days in April)
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
-- **Bonus**: See the age numbers animate to their final number when the form is submitted
+- ~~**Bonus**: See the age numbers animate to their final number when the form is submitted~~ Not done yet.
 
 ### Screenshot
 
@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/Augussst/age-calculator)
+- Live Site URL: [Live site URL](augussst-age-calculator.vercel.app)
 
 ### Built with
 
@@ -47,8 +47,6 @@ Users should be able to:
 - Mobile-first workflow
 - [Svelte](https://svelte.dev/) - JS library
 - [SvelteKit](https://kit.svelte.dev/) - Svelte framework
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ## Author
 
