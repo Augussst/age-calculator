@@ -63,9 +63,9 @@
 		}
 	}
 
-	let ageYear: number = 0;
-	let ageMonth: number = 0;
-	let ageDay: number = 0;
+	let ageYear: number;
+	let ageMonth: number;
+	let ageDay: number;
 
 	function handleSubmit() {
 		const validatedYear = validateYear(yearValue);
@@ -157,13 +157,13 @@
 	<div class="result">
 		<ol>
 			<li>
-				<span>{ageYear === 0 ? '--' : ageYear}</span> Years
+				<span>{ageYear === undefined ? '--' : ageYear}</span> Years
 			</li>
 			<li>
-				<span>{ageMonth === 0 ? '--' : ageMonth}</span> Months
+				<span>{ageMonth === undefined ? '--' : ageMonth}</span> Months
 			</li>
 			<li>
-				<span>{ageDay === 0 ? '--' : ageDay}</span> Days
+				<span>{ageDay === undefined ? '--' : ageDay}</span> Days
 			</li>
 		</ol>
 	</div>
