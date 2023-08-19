@@ -113,6 +113,7 @@
 					inputmode="numeric"
 					name="day"
 					id="day"
+					placeholder="DD"
 					maxlength="2"
 				/>
 				<span class="inputError {activateError(dayError)}">{dayError}</span>
@@ -127,6 +128,7 @@
 					inputmode="numeric"
 					name="month"
 					id="month"
+					placeholder="MM"
 					maxlength="2"
 				/>
 				<span class="inputError {activateError(monthError)}">{monthError}</span>
@@ -141,6 +143,7 @@
 					inputmode="numeric"
 					name="year"
 					id="year"
+					placeholder="YYYY"
 					maxlength="4"
 				/>
 				<span class="inputError {activateError(yearError)}">{yearError}</span>
@@ -173,7 +176,7 @@
 	:root {
 		--fs-sm: 0.8rem;
 		--fs-lg: 1.7rem;
-		--fs-xl: clamp(3rem, 5vw + 1rem, 5rem);
+		--fs-xl: clamp(3.2rem, 5vw + 1rem, 6rem);
 	}
 
 	section {
@@ -223,7 +226,7 @@
 	}
 
 	label .inputError {
-		height: 2rem;
+		height: 1ch;
 		margin-bottom: 1rem;
 		font-size: var(--fs-sm);
 		line-height: 16px;
